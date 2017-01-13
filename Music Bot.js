@@ -8,8 +8,8 @@ let prefix = "!";
 const voiceChannel = msg.member.voiceChannel;
 
 	
-	console.log("Shutdown?")
 	if (msg.content.startsWith(prefix + "shutdownbot")) {
+		console.log("Shutdown?")
 		if (msg.author.id != "235144525763444736") return;
 		console.log(`Shutdown initiated by ${msg.author}...`)
 		console.log("Shutting down...")

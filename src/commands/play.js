@@ -1,7 +1,3 @@
-/**
- * Created by Will on 1/13/2017.
- */
-
 const path = require('path');
 const fsX = require('fs-extra');
 
